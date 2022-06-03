@@ -1,0 +1,29 @@
+package communication;
+
+import java.io.Serializable;
+
+public enum Operation implements Serializable {
+    LOGIN,
+    LOGOUT,
+
+    SAVE_PRODUCT,
+    GET_ALL_PRODUCTS,
+    FIND_PRODUCTS,
+    EDIT_PRODUCT,
+    DEACTIVATE_PRODUCT,
+    ACTIVATE_PRODUCT,
+
+    REGISTER_CLIENT,
+    GET_ALL_CLIENTS,
+    FIND_CLIENTS,
+    EDIT_CLIENT,
+
+    CREATE_LOAN_APPLICATION,
+    GET_ALL_LOAN_APPLICATIONS,
+    FIND_LOAN_APPLICATIONS,
+
+    GET_CREDIT_BUREAU_REPORT,
+    GET_FRAUD_REPORT,
+
+    PROCESS_LOAN_APPLICATION
+}
